@@ -1,4 +1,6 @@
 const fibonacci = function(n) {
+  if(n < 1) return 'OOPS';
+
   let previous = 1;
   let value = 0;
 
